@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background: linear-gradient(45deg, red, blue);
+    padding-bottom: 630px;
+}
+.circle{
+    background-color: transparent;
+    border: 10px solid white;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    position: absolute;
+    margin: 4% 55%;
+    z-index: -999;
+    opacity: 0.6;
+    box-shadow: 0 0 5px 2px white;
+}
+.container form {
+  margin: 9% 30%;
+  position: absolute;
+  width: 30%;
+  height: 370px;
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 10px;
+  z-index: -9;
+  box-shadow: 5px 5px 10px rgba(66, 58, 58, 0.616);
+}
+form ul {
+  list-style-type: none;
+}
+form ul li {
+  padding: 20px;
+  font-size: 20px;
+  color: black;
+}
+form .input {
+  margin: -79% 41%;
+  position: absolute;
+  list-style-type: none;
+  z-index: 999;
+}
+form .input li {
+  padding: 20px;
+  font-size: 20px;
+}
+form .input li #text {
+  width: 200px;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: dotted;
+  border-color: black;
+  background: transparent;
+  color: black;
+}
+form .input #radio {
+  color: black;
+  font-size: 15px;
+}
+form .buttons {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 3;
+  margin: 0%;
+  width: 100%;
+  margin-top: 15px;
+}
+form #button {
+  padding: 5px;
+  margin: auto 10px auto 10px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.336);
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  color: black;
+}
+form #button:hover {
+  cursor: pointer;
+}
